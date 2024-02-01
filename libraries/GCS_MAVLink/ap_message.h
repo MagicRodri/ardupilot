@@ -6,7 +6,8 @@
 
 #pragma once
 
-enum ap_message : uint8_t {
+enum ap_message : uint8_t
+{
     MSG_HEARTBEAT,
     MSG_ATTITUDE,
     MSG_ATTITUDE_QUATERNION,
@@ -83,5 +84,6 @@ enum ap_message : uint8_t {
     MSG_ATTITUDE_TARGET,
     MSG_HYGROMETER,
     MSG_AUTOPILOT_STATE_FOR_GIMBAL_DEVICE,
+    MSG_HIGHRES_IMU,
     MSG_LAST // MSG_LAST must be the last entry in this enum
 };
